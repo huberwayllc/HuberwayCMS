@@ -1,0 +1,24 @@
+{
+    "name": "huberwayllc/seo-helper",
+    "description": "SEO helper package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "HuberwayCMS\\SeoHelper\\": "src"
+        }
+    },
+    "require": {
+        "huberwayllc/platform": "*@dev",
+        "huberwayllc/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HuberwayCMS\\SeoHelper\\Providers\\SeoHelperServiceProvider"
+            ],
+            "aliases": {
+                "SeoHelper": "HuberwayCMS\\SeoHelper\\Facades\\SeoHelper"
+            }
+        }
+    }
+}

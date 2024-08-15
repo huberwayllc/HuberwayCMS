@@ -1,0 +1,11 @@
+{
+    "id": "huberwayllc/stripe",
+    "name": "Stripe Payment Gateway",
+    "namespace": "HuberwayCMS\\Stripe\\",
+    "provider": "HuberwayCMS\\Stripe\\Providers\\StripeServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0.0",
+    "description": "Stripe payment gateway integration",
+    "require": ["huberwayllc/payment"]
+}

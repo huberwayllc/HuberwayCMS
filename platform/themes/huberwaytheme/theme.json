@@ -1,0 +1,7 @@
+{
+    "name": "HuberwayTheme",
+    "namespace": "Theme\\HuberwayTheme\\",
+    "description": "HuberwayTheme - HuberwayCMS - Laravel Based",
+    "author": "Huberway Technologies",
+    "required_plugins": []
+}

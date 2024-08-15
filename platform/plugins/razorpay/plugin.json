@@ -1,0 +1,11 @@
+{
+    "id": "huberwayllc/razorpay",
+    "name": "Razorpay Payment Gateway",
+    "namespace": "HuberwayCMS\\Razorpay\\",
+    "provider": "HuberwayCMS\\Razorpay\\Providers\\RazorpayServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0.0",
+    "description": "Razorpay payment gateway integration",
+    "require": ["huberwayllc/payment"]
+}

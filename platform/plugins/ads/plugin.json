@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/ads",
+    "name": "Ads",
+    "namespace": "HuberwayCMS\\Ads\\",
+    "provider": "HuberwayCMS\\Ads\\Providers\\AdsServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0",
+    "description": "Ads manager for HuberwayCMS CMS"
+}

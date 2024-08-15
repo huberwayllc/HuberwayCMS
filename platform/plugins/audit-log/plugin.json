@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/audit-log",
+    "name": "Audit Log",
+    "namespace": "HuberwayCMS\\AuditLog\\",
+    "provider": "HuberwayCMS\\AuditLog\\Providers\\AuditLogServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.0.0",
+    "description": "Record activities logs"
+}

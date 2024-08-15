@@ -1,0 +1,24 @@
+{
+    "name": "huberwayllc/menu",
+    "description": "Menu package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "HuberwayCMS\\Menu\\": "src"
+        }
+    },
+    "require": {
+        "huberwayllc/platform": "*@dev",
+        "huberwayllc/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HuberwayCMS\\Menu\\Providers\\MenuServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "HuberwayCMS\\Menu\\Facades\\Menu"
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/backup",
+    "name": "Backup",
+    "namespace": "HuberwayCMS\\Backup\\",
+    "provider": "HuberwayCMS\\Backup\\Providers\\BackupServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.0.0",
+    "description": "Backup & restore database, uploads folder"
+}

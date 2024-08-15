@@ -1,0 +1,97 @@
+{
+    "name": "huberwayllc/platform",
+    "description": "The HuberwayCMS Platform based on Laravel Framework.",
+    "keywords": [
+        "huberwaycms",
+        "huberwaycms cms",
+        "huberwaycms platform"
+    ],
+    "homepage": "https://huberway.com",
+    "support": {
+        "issues": "https://huberwaycms.ticksy.com",
+        "document": "https://support.huberway.com"
+    },
+    "authors": [
+        {
+            "name": "Huberway Technologies",
+            "email": "contact@huberway.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "ext-zip": "*",
+        "ext-gd": "*",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "huberwayllc/assets": "^1.0",
+        "intervention/image": "^2.6",
+        "kris/laravel-form-builder": "dev-master",
+        "laravelcollective/html": "^6.2",
+        "maennchen/zipstream-php": "3.1.*",
+        "xantios/mimey": "^2.2",
+        "tightenco/ziggy": "^1.4",
+        "yajra/laravel-datatables-buttons": "^10.0",
+        "yajra/laravel-datatables-oracle": "^10.11",
+        "mews/purifier": "^3.3",
+        "maatwebsite/excel": "^3.1",
+        "symfony/http-client": "^6.3",
+        "symfony/postmark-mailer": "^6.3",
+        "symfony/mailgun-mailer": "^6.3",
+        "twig/twig": "^3.0",
+        "league/flysystem-aws-s3-v3": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HuberwayCMS\\Support\\": "support/src",
+            "HuberwayCMS\\ACL\\": "acl/src",
+            "HuberwayCMS\\Base\\": "base/src",
+            "HuberwayCMS\\Base\\Tests\\": "base/tests",
+            "HuberwayCMS\\Dashboard\\": "dashboard/src",
+            "HuberwayCMS\\Media\\": "media/src",
+            "HuberwayCMS\\Setting\\": "setting/src",
+            "HuberwayCMS\\Table\\": "table/src",
+            "HuberwayCMS\\JsValidation\\": "js-validation/src",
+            "HuberwayCMS\\Chart\\": "chart/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HuberwayCMS\\Base\\Providers\\BaseServiceProvider",
+                "HuberwayCMS\\Base\\Providers\\CommandServiceProvider",
+                "HuberwayCMS\\Base\\Providers\\EventServiceProvider",
+                "HuberwayCMS\\Base\\Providers\\ComposerServiceProvider",
+                "HuberwayCMS\\Base\\Providers\\MailConfigServiceProvider",
+                "HuberwayCMS\\Base\\Providers\\FormServiceProvider",
+                "HuberwayCMS\\Support\\Providers\\SupportServiceProvider",
+                "HuberwayCMS\\Table\\Providers\\TableServiceProvider",
+                "HuberwayCMS\\ACL\\Providers\\AclServiceProvider",
+                "HuberwayCMS\\Dashboard\\Providers\\DashboardServiceProvider",
+                "HuberwayCMS\\Media\\Providers\\MediaServiceProvider",
+                "HuberwayCMS\\JsValidation\\Providers\\JsValidationServiceProvider",
+                "HuberwayCMS\\Chart\\Providers\\ChartServiceProvider"
+            ],
+            "aliases": {
+                "Action": "HuberwayCMS\\Base\\Facades\\Action",
+                "AdminAppearance": "HuberwayCMS\\Base\\Facades\\AdminAppearance",
+                "AdminHelper": "HuberwayCMS\\Base\\Facades\\AdminHelper",
+                "Assets": "HuberwayCMS\\Base\\Facades\\Assets",
+                "BaseHelper": "HuberwayCMS\\Base\\Facades\\BaseHelper",
+                "Breadcrumbs": "HuberwayCMS\\Base\\Facades\\Breadcrumbs",
+                "DashboardMenu": "HuberwayCMS\\Base\\Facades\\DashboardMenu",
+                "EmailHandler": "HuberwayCMS\\Base\\Facades\\EmailHandler",
+                "Filter": "HuberwayCMS\\Base\\Facades\\Filter",
+                "Form": "HuberwayCMS\\Base\\Facades\\Form",
+                "Html": "HuberwayCMS\\Base\\Facades\\Html",
+                "JsValidator": "HuberwayCMS\\JsValidation\\Facades\\JsValidator",
+                "MacroableModels": "HuberwayCMS\\Base\\Facades\\MacroableModels",
+                "MetaBox": "HuberwayCMS\\Base\\Facades\\MetaBox",
+                "PageTitle": "HuberwayCMS\\Base\\Facades\\PageTitle",
+                "PanelSectionManager": "HuberwayCMS\\Base\\Facades\\PanelSectionManager",
+                "RvMedia": "HuberwayCMS\\Media\\Facades\\RvMedia",
+                "Setting": "HuberwayCMS\\Setting\\Facades\\Setting"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

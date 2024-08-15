@@ -1,0 +1,25 @@
+{
+    "name": "huberwayllc/widget",
+    "description": "Widget package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "HuberwayCMS\\Widget\\": "src"
+        }
+    },
+    "require": {
+        "huberwayllc/platform": "*@dev",
+        "huberwayllc/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HuberwayCMS\\Widget\\Providers\\WidgetServiceProvider"
+            ],
+            "aliases": {
+                "Widget": "HuberwayCMS\\Widget\\Facades\\Widget",
+                "WidgetGroup": "HuberwayCMS\\Widget\\Facades\\WidgetGroup"
+            }
+        }
+    }
+}

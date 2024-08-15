@@ -1,0 +1,11 @@
+{
+    "id": "huberwayllc/paypal",
+    "name": "PayPal Payment Gateway",
+    "namespace": "HuberwayCMS\\PayPal\\",
+    "provider": "HuberwayCMS\\PayPal\\Providers\\PayPalServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0.0",
+    "description": "PayPal payment gateway integration",
+    "require": ["huberwayllc/payment"]
+}

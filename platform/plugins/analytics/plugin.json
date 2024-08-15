@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/analytics",
+    "name": "Analytics",
+    "namespace": "HuberwayCMS\\Analytics\\",
+    "provider": "HuberwayCMS\\Analytics\\Providers\\AnalyticsServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.1.0",
+    "description": "Tracking data from Google Analytics"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "huberwayllc/shortcode",
+    "description": "Shortcode package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "HuberwayCMS\\Shortcode\\": "src"
+        }
+    },
+    "require": {
+        "huberwayllc/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HuberwayCMS\\Shortcode\\Providers\\ShortcodeServiceProvider"
+            ],
+            "aliases": {
+                "Shortcode": "HuberwayCMS\\Shortcode\\Facades\\Shortcode"
+            }
+        }
+    }
+}

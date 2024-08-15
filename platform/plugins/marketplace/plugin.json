@@ -1,0 +1,11 @@
+{
+    "id": "huberwayllc/marketplace",
+    "name": "Marketplace",
+    "namespace": "HuberwayCMS\\Marketplace\\",
+    "provider": "HuberwayCMS\\Marketplace\\Providers\\MarketplaceServiceProvider",
+    "author": "HuberwayCMS technologies",
+    "url": "https://huberway.com",
+    "version": "2.1.0",
+    "description": "Marketplace plugin for Ecommerce site",
+    "require": ["huberwayllc/ecommerce"]
+}

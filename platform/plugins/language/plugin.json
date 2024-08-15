@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/language",
+    "name": "Language",
+    "namespace": "HuberwayCMS\\Language\\",
+    "provider": "HuberwayCMS\\Language\\Providers\\LanguageServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.2.0",
+    "description": "Multi-language features."
+}

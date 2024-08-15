@@ -1,0 +1,21 @@
+{
+    "name": "huberwayllc/page",
+    "description": "Page package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "HuberwayCMS\\Page\\": "src"
+        }
+    },
+    "require": {
+        "huberwayllc/platform": "*@dev",
+        "huberwayllc/revision": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HuberwayCMS\\Page\\Providers\\PageServiceProvider"
+            ]
+        }
+    }
+}

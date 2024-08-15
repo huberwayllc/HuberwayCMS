@@ -1,0 +1,14 @@
+{
+    "id": "huberwayllc/paypal-payout",
+    "name": "PayPal Payout",
+    "namespace": "HuberwayCMS\\PayPalPayout\\",
+    "provider": "HuberwayCMS\\PayPalPayout\\Providers\\PayPalPayoutServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0.0",
+    "description": "PayPal Payout payment gateway integration",
+    "require": [
+        "payment",
+        "paypal"
+    ]
+}

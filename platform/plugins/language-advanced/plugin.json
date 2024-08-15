@@ -1,0 +1,11 @@
+{
+    "id": "huberwayllc/language-advanced",
+    "name": "Language Advanced",
+    "namespace": "HuberwayCMS\\LanguageAdvanced\\",
+    "provider": "HuberwayCMS\\LanguageAdvanced\\Providers\\LanguageAdvancedServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.2.0",
+    "description": "Advanced Multi-language",
+    "require": ["huberwayllc/language"]
+}

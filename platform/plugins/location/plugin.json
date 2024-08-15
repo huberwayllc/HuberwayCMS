@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/location",
+    "name": "Location",
+    "namespace": "HuberwayCMS\\Location\\",
+    "provider": "HuberwayCMS\\Location\\Providers\\LocationServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.1.0",
+    "description": "Manage location data: country, state, city."
+}

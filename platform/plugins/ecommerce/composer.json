@@ -1,0 +1,8 @@
+{
+    "name": "huberwayllc/ecommerce",
+    "description": "The most powerful HuberwayCMS - Laravel Based",
+    "type": "package",
+    "require": {
+        "khaled.alshamaa/ar-php": "^6.3"
+    }
+}

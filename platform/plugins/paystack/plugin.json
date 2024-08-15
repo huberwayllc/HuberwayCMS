@@ -1,0 +1,11 @@
+{
+    "id": "huberwayllc/paystack",
+    "name": "Paystack Payment Gateway",
+    "namespace": "HuberwayCMS\\Paystack\\",
+    "provider": "HuberwayCMS\\Paystack\\Providers\\PaystackServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0.0",
+    "description": "Paystack payment gateway integration",
+    "require": ["huberwayllc/payment"]
+}

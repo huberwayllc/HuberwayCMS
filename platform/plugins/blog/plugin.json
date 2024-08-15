@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/blog",
+    "name": "Blog",
+    "namespace": "HuberwayCMS\\Blog\\",
+    "provider": "HuberwayCMS\\Blog\\Providers\\BlogServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.0.0",
+    "description": "Manage posts, categories, tags"
+}

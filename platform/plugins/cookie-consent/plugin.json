@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/cookie-consent",
+    "name": "Cookie Consent",
+    "namespace": "HuberwayCMS\\CookieConsent\\",
+    "provider": "HuberwayCMS\\CookieConsent\\Providers\\CookieConsentServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.0.0",
+    "description": "Cookie Consent"
+}

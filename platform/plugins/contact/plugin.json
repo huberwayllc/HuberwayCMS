@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/contact",
+    "name": "Contact Form",
+    "namespace": "HuberwayCMS\\Contact\\",
+    "provider": "HuberwayCMS\\Contact\\Providers\\ContactServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.0.0",
+    "description": "Contact Form"
+}

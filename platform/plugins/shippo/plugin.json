@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/shippo",
+    "name": "Shippo",
+    "namespace": "HuberwayCMS\\Shippo\\",
+    "provider": "HuberwayCMS\\Shippo\\Providers\\ShippoServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0.0",
+    "description": "Multi-Carrier Shippo Shipping Rates & Address Validation for Ecommerce"
+}

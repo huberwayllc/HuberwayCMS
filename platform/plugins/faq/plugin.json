@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/faq",
+    "name": "FAQ",
+    "namespace": "HuberwayCMS\\Faq\\",
+    "provider": "HuberwayCMS\\Faq\\Providers\\FaqServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.0.0",
+    "description": "Frequently Asked Question(s) FAQ"
+}

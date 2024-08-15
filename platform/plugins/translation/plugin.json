@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/translation",
+    "name": "Translation",
+    "namespace": "HuberwayCMS\\Translation\\",
+    "provider": "HuberwayCMS\\Translation\\Providers\\TranslationServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.0.0",
+    "description": "Manage translation text"
+}

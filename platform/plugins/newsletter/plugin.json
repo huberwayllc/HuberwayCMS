@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/newsletter",
+    "name": "Newsletter",
+    "namespace": "HuberwayCMS\\Newsletter\\",
+    "provider": "HuberwayCMS\\Newsletter\\Providers\\NewsletterServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.0.0",
+    "description": "Newsletter"
+}

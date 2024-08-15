@@ -1,0 +1,11 @@
+{
+    "id": "huberwayllc/sslcommerz",
+    "name": "SslCommerz Payment Gateway",
+    "namespace": "HuberwayCMS\\SslCommerz\\",
+    "provider": "HuberwayCMS\\SslCommerz\\Providers\\SslCommerzServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0.0",
+    "description": "SslCommerz payment gateway integration",
+    "require": ["huberwayllc/payment"]
+}

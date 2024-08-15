@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/payment",
+    "name": "Payment",
+    "namespace": "HuberwayCMS\\Payment\\",
+    "provider": "HuberwayCMS\\Payment\\Providers\\PaymentServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.1.0",
+    "description": "Payment plugin"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "huberwayllc/plugin-management",
+    "description": "Plugin management package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "HuberwayCMS\\PluginManagement\\": "src"
+        }
+    },
+    "require": {
+        "huberwayllc/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HuberwayCMS\\PluginManagement\\Providers\\PluginManagementServiceProvider"
+            ]
+        }
+    }
+}

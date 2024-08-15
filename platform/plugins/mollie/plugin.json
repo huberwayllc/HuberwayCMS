@@ -1,0 +1,11 @@
+{
+    "id": "huberwayllc/mollie",
+    "name": "Mollie Payment Gateway",
+    "namespace": "HuberwayCMS\\Mollie\\",
+    "provider": "HuberwayCMS\\Mollie\\Providers\\MollieServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "1.0.0",
+    "description": "Mollie payment gateway integration",
+    "require": ["huberwayllc/payment"]
+}

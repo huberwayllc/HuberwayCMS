@@ -1,0 +1,10 @@
+{
+    "id": "huberwayllc/captcha",
+    "name": "Captcha",
+    "namespace": "HuberwayCMS\\Captcha\\",
+    "provider": "HuberwayCMS\\Captcha\\Providers\\CaptchaServiceProvider",
+    "author": "Huberway Technologies",
+    "url": "https://huberway.com",
+    "version": "2.1.0",
+    "description": "Captcha for higher security"
+}
